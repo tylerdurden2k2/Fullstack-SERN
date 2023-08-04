@@ -1,0 +1,27 @@
+.preview-img-container {
+    display: flex;
+    gap: 10px;
+    .label-upload {
+        padding: 5px 10px;
+        background: #ccc;
+        height: fit-content;
+        cursor: pointer;
+        i {
+            margin-left: 5px;
+        }
+        &:hover {
+            background: sandybrown;
+        }
+    }
+    .preview-image {
+        width: auto;
+        height: 400px;
+        width: 100%;
+        border: 1px dashed #222;
+        cursor: pointer;
+        .image {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

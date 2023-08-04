@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    </style>
+    <body>
+        <h1>Hello this is GET ALL USERS</h1>
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+            <% for(let i=0; i < data.length; i++ ) { %>
+            <tr>
+                <td><%= data[i].firstName %></td>
+                <td><%= data[i].lastName %></td>
+                <td><%= data[i].email %></td>
+                <td><%= data[i].address %></td>
+                <td>
+                    <a href="/edit-crud?id=<%=data[i].id %>">Edit</a>
+                    <a href="/delete-crud?id=<%=data[i].id %>">Delete</a>
+                </td>
+            </tr>
+            <% } %>
+        </table>
+    </body>
+</html>

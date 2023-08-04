@@ -1,0 +1,18 @@
+.verify-booking {
+    text-align: center;
+    .success-booking {
+        margin-top: 100px;
+        font-size: 20px;
+        color: rgb(18, 90, 207);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .error-booking {
+        margin-top: 100px;
+        font-size: 20px;
+        color: rgb(242, 66, 66);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}

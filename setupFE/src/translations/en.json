@@ -1,0 +1,118 @@
+{
+    "homeheader": {
+        "speciality": "Medical speciality",
+        "searchdortor": "Find a doctor by speciality",
+        "health-facility": "Health facilities",
+        "select-room": "Choose hospital clinic",
+        "doctor": "Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee": "Checkup package",
+        "check-health": "Generate health check",
+        "support": "Support",
+        "welcome": "Welcome"
+    },
+    "banner": {
+        "title1": "medical background",
+        "title2": "comprehensive health care",
+        "child1": "Specialized examination",
+        "child2": "Remote examination",
+        "child3": "Generate examination",
+        "child4": "Medical test",
+        "child5": "Metal health",
+        "child6": "Dental examination"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "User system",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admins",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Clinics",
+            "manage-clinic": "Manage clinics",
+            "specialty": "Specialties",
+            "manage-specialty": "Manage specialties",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage handbooks"
+        },
+        "doctor": {
+            "manage-schedule": "Manage doctor schedule",
+            "manage-patient": "Manage doctor's patient"
+        }
+    },
+    "manage-user": {
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "address": "Address",
+        "phone-number": "Phone number",
+        "gender": "Gender",
+        "role": "RoleID",
+        "edit": "Edit",
+        "save": "Save",
+        "position": "Position",
+        "image": "Image"
+    },
+    "homepage": {
+        "out-standing-doctor": "OutStanding doctors in last weeks",
+        "watch-more": "Watch more",
+        "specialty": "The most popular specialty"
+    },
+    "manage-schedule": {
+        "title": "Manage doctor's examination plan",
+        "choose-date": "Choose date",
+        "choose-doctor": "Choose doctor",
+        "save": "Save"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Schedule",
+            "no-calendar": "The doctor does not have a medical appointment during this time, please choose another date",
+            "choose": "Choose ",
+            "book-free": "and book (free)"
+        },
+        "extra-infor-doctor": {
+            "address-clinic": "Address clinic",
+            "price": "Price",
+            "show-btn": "More detail",
+            "hide-btn": "Hide",
+            "payment-method": "Patients can pay by: "
+        },
+        "booking-modal": {
+            "title": "Thông tin đặt lịch khám bệnh",
+            "fullName": "Full name",
+            "phoneNumber": "Phone number",
+            "email": "Email",
+            "address": "Address",
+            "birthday": "Your birthday",
+            "gender": "Sex",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel",
+            "reason": "Reason",
+            "price": "PRICE"
+        },
+        "verify-booking": {
+            "success-booking": "You have completed the appointment booking process!",
+            "error-booking": "There was an error, please try again later..."
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Create more information doctors",
+            "choose-doctor": "Choose doctor",
+            "description-doctor": "Description doctor's",
+            "save": "Save",
+            "create": "Create",
+            "choose-price": "Choose price",
+            "choose-province": "Choose province",
+            "choose-payment": "Choose payment method",
+            "choose-specialty": "Choose specialties",
+            "choose-clinic": "Choose clinic",
+            "address-clinic": "Address clinic",
+            "name-clinic": "Name clinic",
+            "note": "Note"
+        }
+    }
+}

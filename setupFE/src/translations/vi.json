@@ -1,0 +1,118 @@
+{
+    "homeheader": {
+        "speciality": "Chuyên khoa",
+        "searchdortor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "select-doctor": "Chọn bác sĩ giỏi",
+        "fee": "Gói khám",
+        "check-health": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin Chào"
+    },
+    "banner": {
+        "title1": "nền tảng y tế",
+        "title2": "chăm sóc sức khỏe toàn diện",
+        "child1": "Khám chuyên khoa",
+        "child2": "Khám từ xa",
+        "child3": "Khám tổng quát",
+        "child4": "Xét nghiệm y học",
+        "child5": "Sức khỏe tinh thần",
+        "child6": "Khám nha khoa"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient": "Quản lý bệnh nhân khám bệnh"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "address": "Địa chỉ",
+        "phone-number": "Số điện thoại",
+        "gender": "Giới tính",
+        "role": "Vai trò",
+        "edit": "Lưu thay đổi",
+        "save": "Lưu người dùng",
+        "position": "Chức năng",
+        "image": "Hình ảnh"
+    },
+    "homepage": {
+        "out-standing-doctor": "Bác sĩ nổi bật tuần qua",
+        "watch-more": "Xem thêm",
+        "specialty": "Chuyên khoa phổ biến"
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "choose-date": "Chọn ngày",
+        "choose-doctor": "Chọn bác sĩ",
+        "save": "Lưu thông tin"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch khám",
+            "no-calendar": "Bác sĩ không có lịch khám bệnh trong thời gian này, vui lòng chọn ngày khác",
+            "choose": "Chọn ",
+            "book-free": "và đặt (miễn phí)"
+        },
+        "extra-infor-doctor": {
+            "address-clinic": "Địa chỉ khám",
+            "price": "Giá khám",
+            "show-btn": "Xem chi tiết",
+            "hide-btn": "Ẩn bảng giá",
+            "payment-method": "Người bệnh có thể thanh toán bằng hình thức: "
+        },
+        "booking-modal": {
+            "title": "Thông tin đặt lịch khám bệnh",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "email": "Email",
+            "address": "Địa chỉ liên hệ",
+            "birthday": "Ngày sinh",
+            "gender": "Giới tính",
+            "btnConfirm": "Xác nhận",
+            "btnCancel": "Hủy",
+            "reason": "Lý do khám bệnh",
+            "price": "GIÁ KHÁM"
+        },
+        "verify-booking": {
+            "success-booking": "Bạn đã hoàn tất thủ tục đặt lịch khám!",
+            "error-booking": "Đã có lỗi xin vui lòng thử lại sau..."
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Tạo thêm thông tin Bác sĩ",
+            "choose-doctor": "Chọn Bác sĩ",
+            "description-doctor": "Thông tin giới thiệu",
+            "save": "Lưu thông tin",
+            "create": "Tạo thông tin",
+            "choose-price": "Chọn giá",
+            "choose-province": "Chọn tỉnh thành",
+            "choose-payment": "Chọn phương thức thanh toán",
+            "choose-specialty": "Chọn chuyên khoa",
+            "choose-clinic": "Chọn phòng khám",
+            "address-clinic": "Địa chỉ phòng khám",
+            "name-clinic": "Tên phòng khám",
+            "note": "Note"
+        }
+    }
+}

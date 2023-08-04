@@ -1,0 +1,42 @@
+.profile-doctor-container {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    .image {
+        min-width: 100px !important;
+        height: 100px !important;
+        border-radius: 50%;
+        background-position: center center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+    .content {
+        margin-left: 10px;
+        flex-grow: 1;
+        padding-right: 20px;
+        .position-doctor {
+            font-size: 20px;
+            color: rgb(20, 79, 240);
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .address-infor {
+            line-height: 1.5;
+            .name-clinic {
+                font-size: 14px;
+            }
+
+            .address-clinic {
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.watch-more {
+    cursor: pointer;
+    color: rgb(69, 145, 226);
+    font-size: 14px;
+    text-decoration: none;
+}

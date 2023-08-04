@@ -1,0 +1,13 @@
+.specialty-child {
+    cursor: pointer;
+    .specialty-name {
+        padding: 10px 0;
+        color: rgb(140, 127, 127);
+        font-size: 14px;
+    }
+    &:hover {
+        .specialty-name {
+            color: rgb(69, 173, 218);
+        }
+    }
+}

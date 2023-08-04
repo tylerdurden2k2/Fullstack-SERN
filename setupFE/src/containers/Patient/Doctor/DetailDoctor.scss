@@ -1,0 +1,70 @@
+.doctor-detail-container {
+    box-sizing: border-box;
+    .intro-doctor {
+        padding: 20px 100px;
+        display: flex;
+        .content-left {
+            min-width: 120px;
+            background-position: center center !important;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+        .content-right {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            .up {
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .down {
+                font-size: 16px;
+                padding-top: 10px;
+                .like-and-share-btn {
+                    margin-top: 5px;
+                    display: flex;
+                    gap: 10px;
+                    span {
+                        padding: 3px 6px;
+                        border-radius: 3px;
+                        background-color: rgb(68, 117, 231);
+                        color: white;
+                        cursor: pointer;
+                        font-size: 12px;
+                        font-weight: 600;
+                        i {
+                            color: white;
+                            margin-right: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .detail-infor-doctor {
+        width: 100%;
+        border-top: 2px solid #eee;
+        background-color: #f9f9f9;
+        padding: 10px 100px 20px;
+    }
+    .schedule-doctor {
+        padding: 20px 100px;
+        display: flex;
+        .content-left {
+            width: 50%;
+        }
+        .content-right {
+            width: 50%;
+        }
+    }
+    .comment-doctor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

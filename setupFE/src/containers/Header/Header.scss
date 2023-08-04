@@ -1,0 +1,42 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background-color: $colormain;
+    color: $common-text-color;
+    height: 40px;
+    position: relative;
+    .btn-logout {
+        color: $common-text-color;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+        &:hover {
+            background-color: darken($colormain, 5);
+        }
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+    .languages {
+        .admin {
+            margin-right: 5px;
+        }
+        .language-vi,
+        .language-en {
+            margin: 0 5px;
+            cursor: pointer;
+            opacity: 0.4;
+            &:hover {
+                opacity: 1;
+                color: sandybrown;
+            }
+            &.active {
+                opacity: 1;
+                color: sandybrown;
+            }
+        }
+    }
+}
